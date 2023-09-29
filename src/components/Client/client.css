@@ -1,0 +1,36 @@
+.client {
+    display: flex;
+    padding: 0px 160px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    background: var(--neutrals-1, #141416);
+}
+
+.client-text {
+    width: 390px;
+}
+
+.ctext {
+    font-size: 16px;
+    font-weight: 600;
+    color:  #FCFCFD;
+    text-align: center;
+}
+
+.type {
+    display: flex;
+    align-items: flex-start;
+    gap: 24px;
+}
+
+.ctype li {
+    text-decoration: none;
+   
+}
+
+.cname {
+    width: 167px;
+    height: 64px;
+}
